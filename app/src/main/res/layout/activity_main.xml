@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elina.a2505.MainActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/ege"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ege"
+            android:visibility="visible"
+            tools:text="@string/ege" />
+
+        <Button
+            android:id="@+id/var"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/var"
+            android:visibility="visible"
+            tools:text="@string/var" />
+
+        <Button
+            android:id="@+id/tests"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tests"
+            android:visibility="visible"
+            tools:text="@string/tests" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
